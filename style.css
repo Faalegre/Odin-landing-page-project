@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', Verdana, Arial, Tahoma, sans-serif;
+}
+
+/* This is the first section of the landing page (1/4)*/
+
+.container {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    width: 500px;
+}
+
+p {
+    width: 500px;
+}
+
+
+.firstul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 0;
+}
+
+.firstul, p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: space-around;
+    padding-top: 6px;
+}
+
+button {
+    background-color: #3882f6;
+    max-width: 500px;
+    border-radius: 8px;
+    border-color: #3882f6;
+    color:#f9faf8;
+    padding: 6px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-style: solid;
+}
+
+
+
+.subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    margin: 40px 0px;
+}
+
+.imgsec {
+    width: 500px;
+    height: 300px;
+}
+
+.right-cont {
+    width: 500px;
+    height: auto; 
+    background-color: #1F2937; 
+    margin-top: 40px; 
+}
+
+/* This is the second section of the landing page (2/4)*/
+
+
+.subheader {
+    display: flex;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 800;
+    justify-content: center;
+}
+
+
+.ter-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-list {
+    margin-top: 30px;
+}
+
+.secondul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding:0;
+    gap: 80px;
+    color:black;
+    border-color: #3882f6;
+}
+
+.ullist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    background-color: #3882f6;
+}
+
+.imglist {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.textsec {
+    display: flex;
+    justify-content: center;
+}
+
+.texts {
+    color: #2b3544;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    margin: 0px 44px;
+    padding-bottom: 18px;
+}
+
+
+/* This is the third section of the landing page (3/4)*/
+
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    width: 900px;
+}
+
+.quote-text {
+    color: #1F2937;
+    display: flex;
+    width: 900px;
+    height: auto;
+    align-items: center;
+    font-size: 36px;
+    padding-top: 100px;
+}
+
+
+.quotefoot {
+    display: flex;
+    color: #1F2937;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0px 0px;
+    padding-bottom: 100px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+
+/* This is the fourth section of the landing page (4/4)*/
+
+.call-to-action-container{
+    display:flex;
+    justify-content: center;
+}
+
+
+.call-to-action-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px 270px;
+    width: 1100px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #e5e7eb;
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+
+.call-text {
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 17px;
+    width: fit-content;
+    padding-bottom: 40px;
+}
+
+.right-call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-button {
+    background-color: #3882f6;
+    max-width: 500px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    padding: 6px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+    /*Here goes the footer*/
+
+.footerpage {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937
+}
+
+footer {
+    color: #f9faf8;
+    padding: 50px 0px;
+}
